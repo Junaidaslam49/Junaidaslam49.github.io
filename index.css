@@ -62,6 +62,42 @@ h4 {
     color: #F6AC00;
     text-transform: uppercase;
 }
+h1 {
+    font-size: 3em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+.border {
+    border-top: 1px solid #f0eeee;
+}
+.cta-section {
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 4em;
+}
+.cta-button {
+    border-radius: 5px;
+    border: 1px solid #F6AC00;
+    padding: 1em 1.5em;
+    display: inline-block;
+    font-size: 1.5em;
+    font-style: italic;
+    margin: 0 1em;
+    margin-bottom: 1em;
+    min-width: 10em;
+    transition: all 0.25s ease;
+}
+.cta-section a {
+    font-size: 1.1em;
+    color: #494c4e;
+    text-decoration: none;
+    font-weight: bold;
+}
+.arrow-right {
+    display: inline-block;
+    transition: all 0.25s ease;
+    padding-left: 10px;
+}
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
