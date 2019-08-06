@@ -6,6 +6,7 @@ body {
     text-align: center; */
     border: 8px solid #494c4e;
     margin: 0px;
+    color: #494c4e;
   
   }
   .navbar {
@@ -26,9 +27,7 @@ body {
     opacity: 1;
 }
 .inner-container {
-    max-width: 80em;
-    /* margin-left: auto;
-    margin-right: auto; */
+    max-width: 60em;
     margin: auto;
 } 
 .intro {
@@ -39,4 +38,36 @@ body {
     font-size: 3em;
     line-height: 1.5em;
     margin-bottom: 1em;
+}
+.outer-container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.space-bottom {
+    margin-bottom: 4em;
+}
+.yellow {
+    color: #F6AC00;
+}
+p {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+}
+h4 {
+    font-size: 1.25em;
+    line-height: 1em;
+    margin-bottom: 1.5em;
+    color: #F6AC00;
+    text-transform: uppercase;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    
+    .navbar {
+        padding: 1.5em 0rem; 
+      }
 }
