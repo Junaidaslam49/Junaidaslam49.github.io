@@ -50,9 +50,11 @@ body {
 }
 .yellow {
     color: #F6AC00;
+    transition: all 0.25s ease;
 }
 .yellow:hover {
     transition: all 0.25s ease;
+    transform: scale(1.025);
     text-decoration: none;
 }
 p {
@@ -118,6 +120,7 @@ footer {
   and (-webkit-min-device-pixel-ratio: 2) {
     
     .navbar {
-        padding: 1.5em 0rem; 
+        padding: 1.5em 0rem;
+        display: -webkit-inline-box; 
       }
 }
