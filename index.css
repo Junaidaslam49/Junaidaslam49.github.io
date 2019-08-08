@@ -176,4 +176,7 @@ footer {
         padding: 1.5em 0rem; 
         display: -webkit-inline-box; 
       }
+    .bg-light {
+         background-color: #FFFFFF!important;
+    }  
 }
